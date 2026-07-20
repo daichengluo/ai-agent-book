@@ -13,7 +13,7 @@ bản Tamil ở [`book-ta/`](book-ta/).
 - **Mã nguồn tiếng Việt**: `book-vi/introduction.vi.md` (lời mở đầu),
   `book-vi/chapter1.vi.md` ~ `book-vi/chapter10.vi.md` (chương 1 đến chương 10),
   `book-vi/afterword.vi.md` (lời bạt)
-- **Bản PDF đã biên dịch**: [PDF tiếng Việt](book-vi/AI-Agents-in-Depth-Bojie-Li-v1.1-vi.pdf) · [PDF bản gốc tiếng Trung](book/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3-AI-Agent-%E6%9D%8E%E5%8D%9A%E6%9D%B0-v1.1.pdf)
+- **Bản PDF đã biên dịch**: [PDF tiếng Việt](book-vi/AI-Agents-in-Depth-Bojie-Li-v1.1-vi.pdf) · [PDF bản gốc tiếng Trung](book/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3-AI-Agent-%E6%9D%8E%E5%8D%9A%E6%9D%B0-v1.2.pdf)
 - **Tự biên dịch**: sau khi cài pandoc, xelatex, lớp tài liệu ElegantBook và các phông chữ liên quan, chạy
 
   ```bash
