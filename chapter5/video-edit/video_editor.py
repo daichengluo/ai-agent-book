@@ -102,7 +102,9 @@ def _apply_edit_ffmpeg(source: str, plan: dict, out_path: str) -> str:
         cmd += ["-af", ",".join(af_chain)]
     cmd += ["-c:v", "libx264", "-c:a", "aac", "-pix_fmt", "yuv420p", out_path]
 
-    os.makedirs(os.path.dirname(out_path), exist_ok=True)
+    out_dir = os.path.dirname(out_path)
+    if out_dir:
+        os.makedirs(out_dir, exist_ok=True)
     run(cmd, desc="ffmpeg 剪辑")
     return out_path
 

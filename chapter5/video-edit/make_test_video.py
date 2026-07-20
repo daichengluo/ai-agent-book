@@ -34,9 +34,11 @@ def _drawtext(text, size, y_expr, color="white", box=False):
 
 def make(out_path: str) -> str:
     """生成测试视频，返回路径。幂等：每次覆盖，保证从干净状态开始。"""
-    os.makedirs(os.path.dirname(out_path), exist_ok=True)
+    out_dir = os.path.dirname(out_path)
+    if out_dir:
+        os.makedirs(out_dir, exist_ok=True)
     clip_paths = []
-    tmp_dir = os.path.dirname(out_path)
+    tmp_dir = out_dir or "."
 
     for i, (name, color, start, dur) in enumerate(SCENES):
         clip = os.path.join(tmp_dir, f"_scene_{i}.mp4")
