@@ -13,7 +13,7 @@
 
 > 📥 **Download PDF directly** (full text, free and open source):
 > - **Chinese (original)**: [`深入理解-AI-Agent-李博杰-v1.2.pdf`](book/深入理解-AI-Agent-李博杰-v1.2.pdf)
-> - **Traditional Chinese (Taiwan)** (community contribution, automated conversion via OpenCC + zhtw-mcp, by [@tigercosmos](https://github.com/tigercosmos)): [`深入理解-AI-Agent-李博杰-v1.2-zhtw.pdf`](book-zhtw/深入理解-AI-Agent-李博杰-v1.2-zhtw.pdf)
+> - **Traditional Chinese (Taiwan)** (community translation, by [@tigercosmos](https://github.com/tigercosmos)): [`深入理解-AI-Agent-李博杰-v1.2-zhtw.pdf`](book-zhtw/深入理解-AI-Agent-李博杰-v1.2-zhtw.pdf)
 > - **English** (community translation, by [@nsdevaraj](https://github.com/nsdevaraj)): [`AI-Agents-in-Depth-Bojie-Li-v1.2.pdf`](book-en/AI-Agents-in-Depth-Bojie-Li-v1.2.pdf)
 > - **Tamil** (community translation, by [@nsdevaraj](https://github.com/nsdevaraj)): [`AI-Agents-in-Depth-Bojie-Li-v1.2-ta.pdf`](book-ta/AI-Agents-in-Depth-Bojie-Li-v1.2-ta.pdf)
 > - **Vietnamese** (community translation, by [@toanalien](https://github.com/toanalien)): [`AI-Agents-in-Depth-Bojie-Li-v1.2-vi.pdf`](book-vi/AI-Agents-in-Depth-Bojie-Li-v1.2-vi.pdf)
