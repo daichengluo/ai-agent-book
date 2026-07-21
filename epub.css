@@ -1,0 +1,93 @@
+:root {
+  color-scheme: light dark;
+}
+
+body {
+  font-family: system-ui, -apple-system, "PingFang SC", "PingFang TC", "Noto Sans CJK SC", "Noto Sans CJK TC", sans-serif;
+  line-height: 1.65;
+  orphans: 2;
+  widows: 2;
+}
+
+h1, h2, h3, h4 {
+  line-height: 1.3;
+  break-after: avoid;
+}
+
+img, svg {
+  display: block;
+  height: auto;
+  margin: 1em auto;
+  max-width: 100%;
+}
+
+figure {
+  margin: 1.5em 0;
+  break-inside: avoid;
+}
+
+figcaption {
+  color: #666;
+  font-size: 0.9em;
+  text-align: center;
+}
+
+pre {
+  -webkit-overflow-scrolling: touch;
+  font-size: 0.82em;
+  line-height: 1.45;
+  max-width: 100%;
+  overflow-x: auto;
+  white-space: pre;
+}
+
+code {
+  font-family: ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+
+table {
+  border-collapse: collapse;
+  display: block;
+  font-size: 0.86em;
+  overflow-x: auto;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #999;
+  padding: 0.35em 0.5em;
+  vertical-align: top;
+}
+
+blockquote {
+  border-left: 0.25em solid #888;
+  margin-left: 0;
+  padding-left: 1em;
+}
+
+nav#toc > ol.toc {
+  list-style: none;
+  padding-left: 0;
+}
+
+nav#toc > ol.toc > li.chapter-group {
+  list-style: none;
+  margin: 2.5em 0;
+}
+
+nav#toc > ol.toc > li.chapter-group > a {
+  display: block;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+nav#toc > ol.toc > li.chapter-group > ol.toc {
+  list-style: none;
+  padding-left: 0;
+}
+
+nav#toc > ol.toc > li.chapter-group > ol.toc > li {
+  margin: 0.45em 0;
+}

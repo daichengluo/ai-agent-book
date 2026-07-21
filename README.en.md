@@ -20,6 +20,8 @@
 
 Chinese text source is in [`book/`](book/); Traditional Chinese (Taiwan)/English/Tamil/Vietnamese versions are community contributions (may lag behind the Chinese original), located in [`book-zhtw/`](book-zhtw/), [`book-en/`](book-en/), [`book-ta/`](book-ta/), [`book-vi/`](book-vi/) respectively.
 
+The shared builder produces EPUB 3 editions for Simplified Chinese, Traditional Chinese (Taiwan), English, Tamil, and Vietnamese. See the [EPUB build instructions](EPUB.md).
+
 <details>
 <summary><b>🔧 Build the PDF yourself?</b> (requires pandoc / xelatex / ElegantBook)</summary>
 

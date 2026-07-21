@@ -20,6 +20,8 @@
 
 Mã nguồn tiếng Trung nằm trong [`book/`](book/); các bản Trung phồn thể (Đài Loan)/Anh/Tamil/Việt là đóng góp cộng đồng (có thể chậm hơn bản gốc), nằm trong [`book-zhtw/`](book-zhtw/), [`book-en/`](book-en/), [`book-ta/`](book-ta/), [`book-vi/`](book-vi/).
 
+Trình dựng chung tạo sách EPUB 3 cho tiếng Trung giản thể, tiếng Trung phồn thể (Đài Loan), tiếng Anh, tiếng Tamil và tiếng Việt. Xem [hướng dẫn dựng EPUB](EPUB.md).
+
 <details>
 <summary><b>🔧 Tự build PDF?</b> (cần pandoc / xelatex / ElegantBook)</summary>
 

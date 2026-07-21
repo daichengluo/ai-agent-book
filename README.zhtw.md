@@ -20,6 +20,8 @@
 
 中文正文原始碼位於 [`book/`](book/)；台灣正體/英文/泰米爾/越南語版本為社群貢獻（可能滯後於中文原版），分別位於 [`book-zhtw/`](book-zhtw/)、[`book-en/`](book-en/)、[`book-ta/`](book-ta/)、[`book-vi/`](book-vi/)。
 
+可使用統一的建置腳本產生中文、台灣正體、英文、泰米爾語和越南語 EPUB 3 電子書。請參閱 [EPUB 建置說明](EPUB.md)。
+
 <details>
 <summary><b>🔧 想自行編譯 PDF？</b>（需 pandoc / xelatex / ElegantBook）</summary>
 

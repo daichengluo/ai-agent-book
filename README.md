@@ -20,6 +20,8 @@
 
 中文正文源码位于 [`book/`](book/)；台灣正體/英文/泰米尔/越南语版本为社区贡献（可能滞后于中文原版），分别位于 [`book-zhtw/`](book-zhtw/)、[`book-en/`](book-en/)、[`book-ta/`](book-ta/)、[`book-vi/`](book-vi/)。
 
+可使用统一的构建脚本生成中文、台灣正體、英文、泰米尔语和越南语 EPUB 3 电子书。请参阅 [EPUB 构建说明](EPUB.md)。
+
 <details>
 <summary><b>🔧 想自行编译 PDF？</b>（需 pandoc / xelatex / ElegantBook）</summary>
 
