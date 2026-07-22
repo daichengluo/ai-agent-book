@@ -14,6 +14,7 @@
 | [book-translation](book-translation/) | ✅ | 管理者模式拆分翻译给术语表/翻译/审校专职 Agent，Manager 只存索引、译文全落盘，上下文基本恒定 |
 | [parallel-web-research](parallel-web-research/) | ✅ | N 个同构子 Agent 并行搜索，命中即级联终止；消息总线/并行派发/实时监控/竞态处理均真实实现 |
 | [voice-werewolf](voice-werewolf/) | ✅ | 用多 Agent 狼人杀演示「上下文不共享」的信息权限：玩家私有上下文严格隔离，确定性法官投递信息并审计 |
+| `generative_agents/` | 📖 | 斯坦福「AI 小镇」生成式智能体（实验 10-7 配套）；外部仓库 `joonspk-research/generative_agents`，需自行克隆（见主 README 附录） |
 
 ## 项目类型说明
 
