@@ -69,7 +69,6 @@
 | **Kimi** (Moonshot) | <https://platform.moonshot.cn/> | Серия Kimi, сильна в длинном контексте и возможностях агента |
 | **Zhipu GLM** | <https://open.bigmodel.cn/> | GLM-4.6 и др., сильный китайский, выгодная цена |
 | **Siliconflow** | <https://siliconflow.cn/> | Разные открытые модели (DeepSeek, Qwen и др.) |
-| **Volcano Engine** | <https://www.volcengine.com/product/ark> | ByteDance Doubao (закрытая), низкая задержка в Китае |
 | **Krill AI** | <https://www.krill-ai.com/> | Единый доступ к основным мировым и китайским моделям (OpenAI, Claude, Gemini, Grok, Kimi, GLM, DeepSeek, Qwen, Minimax), с точками доступа для всего мира и материкового Китая |
 | **OpenRouter** | <https://openrouter.ai/> | Единый доступ к Gemini / Claude / GPT-5 и др., с глобальными точками доступа |
 

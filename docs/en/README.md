@@ -69,7 +69,6 @@ It is recommended to apply for API keys from several platforms for convenient le
 | **Kimi** (Moonshot) | <https://platform.moonshot.cn/> | Kimi series, strong in long context and Agent capabilities |
 | **Zhipu GLM** | <https://open.bigmodel.cn/> | GLM-4.6 etc., strong Chinese ability, cost-effective |
 | **Siliconflow** | <https://siliconflow.cn/> | Various open-source models (DeepSeek, Qwen, etc.) |
-| **Volcano Engine** | <https://www.volcengine.com/product/ark> | ByteDance Doubao (closed-source), low latency in China |
 | **Krill AI** | <https://www.krill-ai.com/> | One-stop access to major global and China-domestic models (OpenAI, Claude, Gemini, Grok, Kimi, GLM, DeepSeek, Qwen, Minimax), with both global and China mainland access endpoints |
 | **OpenRouter** | <https://openrouter.ai/> | One-stop access to Gemini / Claude / GPT-5 etc., with global access endpoints |
 
