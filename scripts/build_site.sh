@@ -17,7 +17,7 @@ cp "$ROOT/index.md" "$DEST/index.md"
 [ -f "$ROOT/robots.txt" ] && cp "$ROOT/robots.txt" "$DEST/robots.txt"
 
 # The language editions, each with its images/ subfolder.
-for lang in book book-en book-ta book-vi book-zhtw; do
+for lang in book book-en book-ru book-ta book-vi book-zhtw; do
   mkdir -p "$DEST/$lang"
   cp -R "$ROOT/$lang" "$DEST/"
 done
@@ -61,7 +61,11 @@ if [ -d "$ROOT/assets" ]; then
 fi
 
 # Keep only Markdown and images; drop .tex/.py/.lua/.pdf/.sh etc.
-find "$DEST" -type f \
+# -type l is included because cp -R preserves symlinks: a dangling symlink
+# (e.g. a wandb debug-internal.log pointing at a deleted run dir) is not
+# matched by -type f, survives the cleanup, and then crashes `mkdocs build`
+# when it tries to copy the dead link.
+find "$DEST" \( -type f -o -type l \) \
   ! -name '*.md' \
   ! -name '*.svg' \
   ! -name '*.png' \
